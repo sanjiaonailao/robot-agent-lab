@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environments
+.venv/
+venv/
+env/
+conda-env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.key
+
+# IDE
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Large outputs
+checkpoints/
+*.pt
+*.pth
+*.ckpt
